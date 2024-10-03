@@ -1,0 +1,87 @@
+/* Estilo do corpo da página */
+body {
+    font-family: Arial, sans-serif; /* Fonte da página */
+    margin: 20px; /* Margem externa */
+}
+
+/* Container principal */
+.container {
+    max-width: 800px; /* Largura máxima */
+    margin: 50px auto; /* Centraliza o container */
+    background: #fff; /* Fundo branco */
+    padding: 40px; /* Espaçamento interno */
+}
+
+/* Títulos */
+h1, h2 {
+    text-align: center; /* Centraliza */
+    margin-bottom: 20px; /* Margem inferior */
+}
+
+/* Campo de pesquisa */
+.form-pesquisa input {
+    font-size: 1rem; /* Tamanho da fonte */
+    padding: 10px; /* Espaçamento interno */
+}
+
+/* Estilo do botão de pesquisa */
+.form-pesquisa button {
+    margin-top: 10px; /* Margem superior */
+}
+
+/* Cabeçalhos da tabela */
+.table-alunos th {
+    background-color: coral; /* Cor de fundo */
+    color: #fff; /* Cor do texto */
+}
+
+/* Links na tabela */
+.table-alunos a {
+    color: #e63946; /* Cor do link */
+    text-decoration: none; /* Remove sublinhado */
+}
+
+/* Efeito hover para links */
+.table-alunos a:hover {
+    color: #d90429; /* Cor ao passar o mouse */
+}
+
+/* Estilo para formulário */
+form {
+    margin-bottom: 20px; /* Margem inferior */
+}
+
+/* Campos de entrada */
+input[type="text"],
+input[type="number"],
+input[type="email"],
+input[type="submit"] {
+    display: block; /* Exibe como bloco */
+    margin: 10px 0; /* Margem vertical */
+    padding: 10px; /* Espaçamento interno */
+    width: 200px; /* Largura fixa */
+}
+
+/* Estilo da tabela */
+table {
+    width: 100%; /* Largura total */
+    border-collapse: collapse; /* Remove espaçamentos */
+}
+
+
+/* Estilo das células */
+th, td {
+    padding: 10px; /* Espaçamento interno */
+    text-align: left; /* Alinhamento à esquerda */
+}
+
+/* Linhas da tabela */
+tr:nth-child(even) {
+    background-color: #f9f9f9; /* Cor para linhas */
+}
+
+/* Estilo de links em geral */
+a {
+    color: red; /* Cor do link */
+    text-decoration: none; /* Remove sublinhado */
+}
